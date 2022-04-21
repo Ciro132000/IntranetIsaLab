@@ -1,0 +1,92 @@
+:root{
+    --primary: #111B54;
+    --ligth: #ffffff;
+    --grey: #efefef;
+}
+
+.bg-sidebar{
+    min-height: 100vh;
+    background: url(../img/banner.jpg) no-repeat center top;
+    background-size: 100% 100%;
+    width: 250px;
+}
+
+.bg-light{
+    background-color: var(--ligth) !important;
+}
+
+.bg-circulo{
+    background-color: rgba(0,123,255,.1) !important;
+}
+
+.body{
+    overflow: hidden;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.sidebar-container{
+    min-height: 100vh;
+}
+
+.sidebar-container .logo{
+    padding: .875rem 1.25rem;
+}
+
+.sidebar-container .menu{
+    width:18rem ;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.btn-buscar{
+    right: 5px;
+}
+
+.avatar{
+    max-width: 35px;
+}
+
+.contenido{
+    overflow: auto;
+    height: 100vh;
+    padding-bottom: 5rem;
+    background-color: #EFEFEF;
+}
+
+.shadow-hover{
+    transition: 1s ease-in-out;
+}
+
+.shadow-hover:hover{
+    transition: 1s ease-in-out;
+    box-shadow: 0 .5rem 1rem rgba(11,37,75,.10);
+}
+
+.shadow-sm{
+    box-shadow: 0 0 1.25rem rgba(11, 37, 75, .05);
+}
+
+.circle{
+    width: 70px ;
+    height: 70px;
+    font-size: 40px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.text-delete{
+    color: red;
+}
+
+.text-edit{
+    color: blue;
+}
+
+
+
+
